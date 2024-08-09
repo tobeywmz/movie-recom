@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
+</head>
+<body>
+	<div>
+		<div id="logo"><img src="./artifacts/Asset 1.svg" alt="Logo"></div>
+		<div id="search">
+			<div>
+				<h1>
+					Yeganeh provides infinite number of movies for you
+				</h1>
+				<h3>
+					You can watch online and download freely
+				</h3>
+				<h1>
+					See here as your home !!!
+				</h1>
+				<div id="search-box">
+					<img src="./artifacts/icons/search.svg" alt="search">
+					<input type="text" placeholder="Search">
+				</div>
+				<div id="filter">
+					<span>The filters are here to help you search:</span>
+					<div id="filter-items">
+						<label for="filter-romance">Romance</label>
+						<input type="checkbox" value="romance" id="filter-romance">
+						<label for="filter-drama">Drama</label>
+						<input type="checkbox" value="drama" id="filter-drama">
+						<label for="filter-thriller">thriller</label>
+						<input type="checkbox" value="thriller" id="filter-thriller">
+						<label for="filter-comedy">Comdey</label>
+						<input type="checkbox" value="comedy" id="filter-comedy">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="main">
+		<div class="movies-heading">
+			<h2>Latest Movies</h2>
+			<a href="#">Show more</a>
+		</div>
+		<div id="latest-movies">
+		</div>
+
+		<div class="movies-heading">
+			<h2>Top Rated</h2>
+			<a href="#">Show more</a>
+		</div>
+		<div id="top-rated-movies">
+		</div>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
